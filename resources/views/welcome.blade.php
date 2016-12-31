@@ -77,8 +77,10 @@
             }
             .video-box{
                 position: absolute;
-                top:0;
-
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
 
             }
             video{
@@ -90,9 +92,12 @@
     <body>
         <div class="flex-center position-ref full-height">
             <div class="video-box">
-                <video src="video/scene_10_16.mp4" autoplay>
+                <div class="video">
+                    <video controls loop="loop" autoplay="autoplay" muted="true" preload="auto">
+                        <source src="video/mp4.mp4" type="video/mp4">
 
-                </video>
+                    </video>
+                </div>
             </div>
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -116,3 +121,7 @@
         </div>
     </body>
 </html>
+
+<script>
+    
+</script>
