@@ -11,8 +11,8 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
-    
-    <link href="/css/paper.css" rel="stylesheet">
+
+    <link href="/css/Paper.css" rel="stylesheet">
 
     <!-- Scripts -->
     <script>
